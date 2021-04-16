@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <style>
+        h1{
+            width: 30%;
+            font-size:50px;
+            position:relative;
+        }
+
+        .hvr-bounce-to-bottom:before{
+        background-color: red;
+        }
+         
+
+
+        h1::after{
+         content: '';
+            border-bottom: 3px solid red;
+            height: 3px;
+            top:85%;
+            left: 0;
+            transform: translateX(20px);
+            width:50px;
+            position: absolute;
+        }
+
+
+      p{
+          display:none;
+          
+          background-color: wheat;
+          visibility: visible;
+          height:200px;
+      }
+
+      h2{
+          display: none;
+      }
+span{
+
+    opacity:1;
+}
+
+
+    </style>
+</head>
+<body>
+    <h2 class="hvr-bounce-in hvr-bounce-to-bottom">hello</h2>
+    
+    <h1 class="animate__animated animate__pulse">
+        welcome
+    </h1>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ipsa enim earum saepe a ex? In vitae delectus, cumque dignissimos provident consequuntur voluptates hic laudantium ullam explicabo. Temporibus, sunt incidunt.</p>
+<h2>Najlaa</h2>
+<span>nvjkf,jvkldk</span>
+<h6> bbbbbbb</h6>
+</body>
+</html>
